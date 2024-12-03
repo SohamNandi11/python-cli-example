@@ -1,2 +1,2 @@
 FROM ubuntu:latest
-RUN blkpy/main.py
+RUN ./blkpy/main.py
