@@ -1,4 +1,4 @@
 FROM ubuntu:latest
-COPY ./blkpy/main.py .
-RUN chmod +x main.py
-RUN ./main.py
+COPY ./setup.py .
+RUN chmod +x setup.py
+RUN ./setup.py
