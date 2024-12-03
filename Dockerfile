@@ -1,2 +1,3 @@
 FROM ubuntu:latest
-RUN ./blkpy/main.py
+COPY ./blkpy/main.py .
+RUN ./main.py
